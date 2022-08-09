@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main class="p-4">  
+      <h1 class="font-weight-bold">Pokemon-list</h1>        
+      <div id="new-pokemon-form">
+        <div class="field mb-4"> 
+          <label for="name">Name</label>
+          <input tyle="text" id="name" class="bg-yellow-100 p-2" /> 
+        </div>
+        <div class="field mb-4"> 
+          <label for="name">Type</label>
+          <select id="type" name="type" class="bg-yellow-100 p-2">
+            <option value="fire">Fire</option> 
+            <option value="water">Water</option> 
+            <option value="posion">Posion</option> 
+            <option value="earth">Earth</option> 
+          </select>
+        </div>
+        <button id="btn-create" class="bg-green-700 text-white px-6 py-2">
+          Create New Pokemon
+        </button>
+      </div>
+    
+      <div id="test-react"></div>
+
+     <div id="pokemon-list"></div> 
+    </main>    
+    <script type="module" src="/main.jsx"></script>
+  </body>
+</html>
